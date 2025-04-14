@@ -1,4 +1,4 @@
-# DDoS Detection in 6G IoT using Spatial-Temporal Trust and Random Forest
+# A Spatial-Temporal Trust-Based Random Forest Framework for DDoS Attack Detection in 6G IoT
 
 This repository contains the implementation of a trust-based DDoS detection framework for IoT networks in 6G environments. The project computes trust values (spatial, temporal, flow-level) and classifies attack traffic using a Random Forest classifier.
 
