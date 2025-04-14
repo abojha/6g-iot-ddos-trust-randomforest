@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Dataset & Output files
+*.csv
+*.dat
+*.log
+*.txt
+*.json
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Results & plots
+*.png
+*.pdf
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# LaTeX build files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+
+# Build and temp directories
+_build/
+_output/
+*.bak
