@@ -6,7 +6,7 @@ This repository contains the implementation of a trust-based DDoS detection fram
 
 ## 📂 Project Structure
 
-- `t.py` — Computes trust features from IoT traffic data.
+- `trust_pipeline.py` — Computes trust features from IoT traffic data.
 - `random_forest.py` — Trains and evaluates the Random Forest model.
 - `preprocessed_dataset.csv` — Preprocessed Bot-IoT dataset (not pushed to GitHub).
 - `randomForestResults/` — Contains plots: ROC, PR, confusion matrix, etc.
