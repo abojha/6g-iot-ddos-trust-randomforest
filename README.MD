@@ -1,5 +1,13 @@
+Ah, I see the issue. You're using triple backticks (```) inside a Markdown file for a code block **within another Markdown-formatted block**, which can cause formatting errors depending on where you paste or view it — especially on GitHub.
+
+To fix the issue cleanly:
+
+- If you're pasting this into **GitHub's `README.md`**, just make sure **the entire thing is saved as plain text**, and **don't include the outermost triple backticks** around the full README (those are only for ChatGPT's formatting).
+- Keep the **inner code blocks** (like `bash` commands) as-is.
 
 ---
+
+### ✅ Correct way for your `README.md` (final copy – **no outer triple backticks**):
 
 ```markdown
 # 🚀 Trust-Based DDoS Detection in 6G IoT Networks
@@ -99,7 +107,7 @@ All outputs including:
 ## 📁 Repository Structure
 
 ```
-├── trust_pipeline.py       # Trust feature extraction pipeline
+├── t.py                    # Trust feature extraction pipeline
 ├── random_forest.py        # Main training and evaluation script
 ├── dataset_stats.py        # Dataset statistics generator
 ├── features.csv            # Saved feature data
@@ -120,7 +128,7 @@ All outputs including:
 ## 📚 References
 
 - Yinglun Ma et al., “DDoS Detection for 6G IoT: Spatial-Temporal Trust Model and New Architecture,” *IEEE China Communications*, 2022.
-- Bot-IoT Datase[Dataset]t: (https://unsw-my.sharepoint.com/personal/z5131399_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5131399%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FBot%2DIoT%5FDataset&ga=1)
+- Bot-IoT Dataset: [https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
 
 ---
 
@@ -139,3 +147,7 @@ Supervisor: Prof. Rashmi Ranjan Rout
 ```
 
 ---
+
+✅ **Just paste this as-is in your `README.md` file**. No formatting errors will appear on GitHub.
+
+Let me know if you want to add badges (e.g., build, license, python version) at the top.
