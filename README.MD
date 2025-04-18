@@ -105,14 +105,6 @@ All outputs including:
 
 ---
 
-## 🧪 Example Visuals
-
-| ROC Curve | PR Curve | Confusion Matrix |
-|-----------|----------|------------------|
-| ![ROC](randomForestResults/roc_curve.png) | ![PR](randomForestResults/pr_curve.png) | ![CM](randomForestResults/confusion_matrix.png) |
-
----
-
 ## 📚 References
 
 - Yinglun Ma et al., “DDoS Detection for 6G IoT: Spatial-Temporal Trust Model and New Architecture,” *IEEE China Communications*, 2022.
