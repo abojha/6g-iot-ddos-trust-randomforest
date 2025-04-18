@@ -35,11 +35,12 @@ With the growth of 6G and IoT, traditional DDoS detection systems struggle to ha
 
 ## 📊 Dataset
 
-- **Bot-IoT Dataset** with 3.6M+ flows
-- 21 unique IoT nodes
-- 13 time slots
-- Two-class labels: 0 (Benign), 1 (Attack)
-
+**Total Flows** - 3.6M+ flows
+**Source Nodes** - 21
+**Time Slots** - 13
+**Two-class labels** - 0 (Benign), 1 (Attack)
+**Benign Flow** - 17,32,862 (47.35%)
+**Attack Flow** - 19,26,608 (52.65%)
 ---
 
 ## ✅ Results
@@ -95,7 +96,7 @@ All outputs including:
 ## 📁 Repository Structure
 
 ```
-├── t.py                    # Trust feature extraction pipeline
+├── trust_pipeline.py       # Trust feature extraction pipeline
 ├── random_forest.py        # Main training and evaluation script
 ├── dataset_stats.py        # Dataset statistics generator
 ├── features.csv            # Saved feature data
