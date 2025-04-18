@@ -1,15 +1,3 @@
-Ah, I see the issue. You're using triple backticks (```) inside a Markdown file for a code block **within another Markdown-formatted block**, which can cause formatting errors depending on where you paste or view it — especially on GitHub.
-
-To fix the issue cleanly:
-
-- If you're pasting this into **GitHub's `README.md`**, just make sure **the entire thing is saved as plain text**, and **don't include the outermost triple backticks** around the full README (those are only for ChatGPT's formatting).
-- Keep the **inner code blocks** (like `bash` commands) as-is.
-
----
-
-### ✅ Correct way for your `README.md` (final copy – **no outer triple backticks**):
-
-```markdown
 # 🚀 Trust-Based DDoS Detection in 6G IoT Networks
 
 This project presents a lightweight, explainable, and scalable machine learning framework for detecting Distributed Denial-of-Service (DDoS) attacks in 6G-enabled IoT networks. It uses a **Spatial-Temporal Trust Model** to evaluate the trustworthiness of IoT nodes based on their behavior and employs a **Random Forest Classifier** to distinguish between benign and malicious traffic.
@@ -144,10 +132,5 @@ Supervisor: Prof. Rashmi Ranjan Rout
 ## 📬 Contact
 
 [LinkedIn](https://www.linkedin.com/in/abhayojha0012) or email.
-```
 
 ---
-
-✅ **Just paste this as-is in your `README.md` file**. No formatting errors will appear on GitHub.
-
-Let me know if you want to add badges (e.g., build, license, python version) at the top.
