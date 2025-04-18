@@ -1,3 +1,4 @@
+
 ---
 
 ```markdown
@@ -98,7 +99,7 @@ All outputs including:
 ## 📁 Repository Structure
 
 ```
-├── t.py                    # Trust feature extraction pipeline
+├── trust_pipeline.py       # Trust feature extraction pipeline
 ├── random_forest.py        # Main training and evaluation script
 ├── dataset_stats.py        # Dataset statistics generator
 ├── features.csv            # Saved feature data
@@ -119,7 +120,7 @@ All outputs including:
 ## 📚 References
 
 - Yinglun Ma et al., “DDoS Detection for 6G IoT: Spatial-Temporal Trust Model and New Architecture,” *IEEE China Communications*, 2022.
-- Bot-IoT Dataset: [https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
+- Bot-IoT Datase[Dataset]t: (https://unsw-my.sharepoint.com/personal/z5131399_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5131399%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FBot%2DIoT%5FDataset&ga=1)
 
 ---
 
@@ -133,5 +134,8 @@ Supervisor: Prof. Rashmi Ranjan Rout
 ---
 
 ## 📬 Contact
+
 [LinkedIn](https://www.linkedin.com/in/abhayojha0012) or email.
+```
+
 ---
