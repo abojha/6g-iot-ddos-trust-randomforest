@@ -35,14 +35,15 @@ With the growth of 6G and IoT, traditional DDoS detection systems struggle to ha
 
 ## 📊 Dataset
 
-**Total Flows** - 3.6M+ flows
-**Source Nodes** - 21
-**Time Slots** - 13
-**Two-class labels** - 0 (Benign), 1 (Attack)
-**Benign Flow** - 17,32,862 (47.35%)
-**Attack Flow** - 19,26,608 (52.65%)
+| Attribute         | Value                         |
+|------------------|-------------------------------|
+| **Total Flows**   | 3,659,470 (≈ 3.6M)             |
+| **Source Nodes**  | 21                            |
+| **Time Slots**    | 13                            |
+| **Classes**        | 0 (Benign), 1 (Attack)        |
+| **Benign Flows**   | 1,732,862 (47.35%)            |
+| **Attack Flows**   | 1,926,608 (52.65%)            |
 ---
-
 ## ✅ Results
 
 | Metric       | Score     |
